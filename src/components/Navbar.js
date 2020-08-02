@@ -35,7 +35,7 @@ function Navbar({ handleChangeMode, theme }) {
             alignItems: "center",
           }}
         >
-          <Typography variant="h6" className={classes.titleStyled}>
+          <Typography variant="h5" className={classes.titleStyled}>
             <a href="/">GitJobs</a>
           </Typography>
           <Tooltip title={theme === "light" ? "Light Mode" : "Dark Mode"}>
