@@ -1,6 +1,6 @@
 import React from "react";
 
-import AppBar from "@material-ui/core/Appbar";
+import Appbar from "@material-ui/core/Appbar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
 function Navbar({ handleChangeMode, theme }) {
   const classes = useStyles();
   return (
-    <AppBar position="static">
+    <Appbar position="static">
       <Toolbar>
         <Container
           style={{
@@ -45,7 +45,7 @@ function Navbar({ handleChangeMode, theme }) {
           </Tooltip>
         </Container>
       </Toolbar>
-    </AppBar>
+    </Appbar>
   );
 }
 
